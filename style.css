@@ -1,0 +1,58 @@
+/*
+Theme Name: Aurashop-Pro
+Theme URI: https://github.com/waseem742/aurashop-pro
+Author: Waseem Yousaf
+Author URI: https://github.com/waseem742
+Description: AuraShop Pro is a premium WooCommerce theme designed for modern online stores that need flexibility, speed, and visual impact. Built with clean code and a responsive layout system, it offers full Theme Builder support, allowing you to create and customize headers, footers, product pages, shop layouts, and dynamic templates without touching core files.
+The theme focuses on performance, conversion-driven design, and easy customization. With drag-and-drop layout compatibility, modular components, and WooCommerce optimization, AuraShop Pro makes it simple to launch a professional eCommerce website for any niche.
+It includes pre-built store layouts, reusable UI blocks, and scalable design settings so developers and store owners can build unique shopping experiences quickly and efficiently.
+Version: 1.0.0
+License: GPL v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: premium-wc-theme
+Domain Path: /languages
+Requires at least: 6.0
+Requires PHP: 7.4
+Requires Plugins: woocommerce
+Tags: e-commerce, woocommerce, responsive, theme-builder, premium
+*/
+
+/* Reset and Base Styles */
+:root {
+    --primary-color: #3a86ff;
+    --secondary-color: #8338ec;
+    --accent-color: #ff006e;
+    --text-color: #333333;
+    --light-bg: #f8f9fa;
+    --dark-bg: #212529;
+    --border-radius: 8px;
+    --box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+/* Premium Design Elements */
+.premium-gradient-bg {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.hover-lift {
+    transition: var(--transition);
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
